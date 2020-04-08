@@ -1,0 +1,34 @@
+Abrir un proyecto a analizar seleccionar Archivo|Abrir proyecto ...
+Abrir el proyecto en Visual Basic seleccione Archivo|Abrir proyecto en Visual Basic.
+Analizar el código del proyecto Archivo|Analizar proyecto.
+Recargar el proyecto abierto seleccionar Archivo|Recargar.
+Respaldar los archivos del proyecto en .zip seleccionar Archivo|Respaldar.
+Buscar elementos del proyecto seleccionar Ver|Buscar eleme  ntos del proyecto.
+Ver las variables vivas/muertas seleccionar Ver|Listar elementos vivos/muertos.
+Ver largo de los procedimientos seleccionar Ver|Lineas de código.
+Generar informe del proyecto seleccionar Informe|Proyecto.
+Generar informe de referencias seleccionar Informe|Referencias.
+Generar informe del componentes seleccionar Informe|Componentes.
+Generar informe del archivos seleccionar Informe|Archivos.
+Generar informe del diccionario de datos seleccionar Informe|Diccionario.
+Generar informe de subrutinas seleccionar Informe|Subrutinas.
+Generar informe de funciones seleccionar Informe|Funciones.
+Generar informe de apis seleccionar Informe|Apis.
+Generar informe de variables seleccionar Informe|Variables.
+Generar informe de constantes seleccionar Informe|Constantes.
+Generar informe de tipos seleccionar Informe|Tipos.
+Generar informe de enumeradores seleccionar Informe|Enumeradores.
+Generar informe de arrays seleccionar Informe|Arrays.
+Generar informe de controles seleccionar Informe|Controles.
+Generar informe de propiedades seleccionar Informe|Propiedades.
+Generar informe de eventos seleccionar Informe|Eventos.
+Para analizar elementos no usados seleccionar opcion minima.
+Para analizar elementos no usados y medir el código seleccionar media.
+Para analizar todo los problemas del proyecto seleccionar Full.
+Para analizar segun opciones de usuario seleccionar personalizada.
+Las lineas de código se miden segun total = lineas-comentarios-blancos.
+Sabia que el autor es fanatico de Star Wars, Stratovarius y SymphonyX.
+Sabia que el autor tiene un bebe que se llama Nicolas ?.
+Sabia que el autor tambien juega Tenis de Mesa.
+Sabia que el autor piensa escribir un libro.
+Las variables se determinan en parametros y variables segun ambito.

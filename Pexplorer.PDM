@@ -1,0 +1,163 @@
+[Root]
+Most Recent Package=Paquete de instalación estándar 1
+
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\pexplorer
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 1|Files Found]
+
+[Package|Paquete de instalación estándar 1|Files Released]
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\pvb_xmenu.dll=
+C:\WINDOWS\SYSTEM\TLBINF32.DLL=
+C:\WINDOWS\SYSTEM\vbzip10.dll=
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=
+
+[Package|Paquete de instalación estándar 1|Files Added]
+c:\windows\vbproyexp.ini=
+D:\VBSoftware\Aplicaciones\Project Explorer\tipofday.txt=
+D:\VBSoftware\Aplicaciones\Project Explorer\THANKYOU.WAV=
+D:\VBSoftware\Aplicaciones\Project Explorer\ANALYSE.WAV=
+D:\VBSoftware\Aplicaciones\Project Explorer\ERROR.WAV=
+D:\VBSoftware\Aplicaciones\Project Explorer\EXIT.WAV=
+D:\VBSoftware\Aplicaciones\Project Explorer\OK.WAV=
+D:\VBSoftware\Aplicaciones\Project Explorer\READY.WAV=
+D:\VBSoftware\Aplicaciones\Project Explorer\SORRY.WAV=
+D:\VBSoftware\Aplicaciones\Project Explorer\STANDBY.WAV=
+D:\VBSoftware\Aplicaciones\Project Explorer\STARTUP.WAV=
+D:\VBSoftware\Aplicaciones\Project Explorer\ACCESSED.WAV=
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+c:\windows\system\msvbvm60.dll=
+c:\archivos de programa\microsoft visual studio\vb98\wizards\pdwizard\redist\oleaut32.dll=
+c:\archivos de programa\microsoft visual studio\vb98\wizards\pdwizard\redist\olepro32.dll=
+c:\archivos de programa\microsoft visual studio\vb98\wizards\pdwizard\redist\asycfilt.dll=
+c:\archivos de programa\microsoft visual studio\vb98\wizards\pdwizard\redist\stdole2.tlb=
+c:\archivos de programa\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+c:\windows\vbproyexp.ini=
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINDOWS\SYSTEM\VB6ES.DLL=Yes
+C:\WINDOWS\SYSTEM\TLBINF32.DLL=Yes
+C:\WINDOWS\SYSTEM\pvb_xmenu.dll=Yes
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCMCES.DLL=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\RCHTXES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\VBPROYEXP.INI=No
+D:\VBSoftware\Aplicaciones\Project Explorer\pexplorer.exe=Yes
+C:\WINDOWS\SYSTEM\vbzip10.dll=Yes
+D:\VBSoftware\Aplicaciones\Project Explorer\tipofday.txt=Yes
+D:\VBSoftware\Aplicaciones\Project Explorer\THANKYOU.WAV=Yes
+D:\VBSoftware\Aplicaciones\Project Explorer\ANALYSE.WAV=Yes
+D:\VBSoftware\Aplicaciones\Project Explorer\ERROR.WAV=Yes
+D:\VBSoftware\Aplicaciones\Project Explorer\EXIT.WAV=Yes
+D:\VBSoftware\Aplicaciones\Project Explorer\OK.WAV=Yes
+D:\VBSoftware\Aplicaciones\Project Explorer\READY.WAV=Yes
+D:\VBSoftware\Aplicaciones\Project Explorer\SORRY.WAV=Yes
+D:\VBSoftware\Aplicaciones\Project Explorer\STANDBY.WAV=Yes
+D:\VBSoftware\Aplicaciones\Project Explorer\STARTUP.WAV=Yes
+D:\VBSoftware\Aplicaciones\Project Explorer\ACCESSED.WAV=Yes
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+C:\LNUNEZ\Proyecto\Aplicaciones\Project Explorer\pexplorer.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TLBINF32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\pvb_xmenu.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCMCES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\RCHTXES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Archivos de programa\Project Explorer\pexplorer.exe=$(AppPath)
+C:\WINDOWS\VBPROYEXP.INI=$(AppPath)
+D:\VBSoftware\Aplicaciones\Project Explorer\pexplorer.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\vbzip10.dll=$(WinSysPath)
+D:\VBSoftware\Aplicaciones\Project Explorer\tipofday.txt=$(AppPath)
+D:\VBSoftware\Aplicaciones\Project Explorer\THANKYOU.WAV=$(AppPath)
+D:\VBSoftware\Aplicaciones\Project Explorer\ANALYSE.WAV=$(AppPath)
+D:\VBSoftware\Aplicaciones\Project Explorer\ERROR.WAV=$(AppPath)
+D:\VBSoftware\Aplicaciones\Project Explorer\EXIT.WAV=$(AppPath)
+D:\VBSoftware\Aplicaciones\Project Explorer\OK.WAV=$(AppPath)
+D:\VBSoftware\Aplicaciones\Project Explorer\READY.WAV=$(AppPath)
+D:\VBSoftware\Aplicaciones\Project Explorer\SORRY.WAV=$(AppPath)
+D:\VBSoftware\Aplicaciones\Project Explorer\STANDBY.WAV=$(AppPath)
+D:\VBSoftware\Aplicaciones\Project Explorer\STARTUP.WAV=$(AppPath)
+D:\VBSoftware\Aplicaciones\Project Explorer\ACCESSED.WAV=$(AppPath)
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+C:\LNUNEZ\Proyecto\Aplicaciones\Project Explorer\pexplorer.exe=No
+C:\Archivos de programa\Project Explorer\pexplorer.exe=No
+C:\WINDOWS\VBPROYEXP.INI=No
+D:\VBSoftware\Aplicaciones\Project Explorer\pexplorer.exe=No
+D:\VBSoftware\Aplicaciones\Project Explorer\tipofday.txt=No
+D:\VBSoftware\Aplicaciones\Project Explorer\THANKYOU.WAV=No
+D:\VBSoftware\Aplicaciones\Project Explorer\ANALYSE.WAV=No
+D:\VBSoftware\Aplicaciones\Project Explorer\ERROR.WAV=No
+D:\VBSoftware\Aplicaciones\Project Explorer\EXIT.WAV=No
+D:\VBSoftware\Aplicaciones\Project Explorer\OK.WAV=No
+D:\VBSoftware\Aplicaciones\Project Explorer\READY.WAV=No
+D:\VBSoftware\Aplicaciones\Project Explorer\SORRY.WAV=No
+D:\VBSoftware\Aplicaciones\Project Explorer\STANDBY.WAV=No
+D:\VBSoftware\Aplicaciones\Project Explorer\STARTUP.WAV=No
+D:\VBSoftware\Aplicaciones\Project Explorer\ACCESSED.WAV=No
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=single
+Size=
+Title=Project Explorer
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=VBSoftware
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 1|VBSoftware]
+Icon1=pexplorer.exe
+Title1=Project Explorer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=d:\pexplorer
+ProjectFolder=D:\VBSoftware\Aplicaciones\Project Explorer
+ServerSideCab=
+File1=d:\pexplorer\setup.exe
+File2=d:\pexplorer\Setup.Lst
+File3=d:\pexplorer\pexplorer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

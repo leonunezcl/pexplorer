@@ -1,0 +1,29 @@
+Informe de Subs
+
+Proyecto : PLibrary
+
+Archivo : GCommonDialog.cls
+
+Private Sub Class_Initialize()
+	Líneas de Código       : 5
+	Líneas de Comentarios  : 0
+	Líneas en Blancos      : 0
+
+Friend Sub InitColors()
+	Líneas de Código       : 7
+	Líneas de Comentarios  : 1
+	Líneas en Blancos      : 0
+
+
+Totales
+
+Subs : 2
+Públicas : 1
+Privadas : 1
+Parámetros : 0
+Parámetros x Valor : 0
+Parámetros x Referencia : 0
+Lineas de código : 12
+Lineas en blanco : 0
+Lineas comentariadas : 1
+

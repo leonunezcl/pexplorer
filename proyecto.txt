@@ -1,0 +1,131 @@
+Informe de Proyecto
+
+Nombre : mkcVBHelper
+Path   : C:\WINDOWS\Escritorio\Add Ins\mkcVBhelper\mkcVBHelper\mkcVBHelper.vbp
+Tamaño : 2,5 KB 
+Fecha  : 15/12/2001 21:49:32
+Tipo   : DLL ACTIVEX
+
+Archivos
+
+total archivos : 36
+total fuentes  : 25 Máximo aproximado (400)
+
+Tipos de archivos
+
+referencias  : 4
+componentes  : 2
+formularios  : 5
+módulos .bas : 19
+módulos .cls : 0
+controles    : 0
+páginas prop : 0
+docu. relac. : 0
+diseñadores  : 1
+Doc. Usuario : 0
+Arc Binarios : 5
+
+archivo fuente mas antiguo : 12/06/2001 11:36:30 - modRegistry
+archivo fuente mas reciente : 15/12/2001 21:49:30 - Connect
+edad de los archivos fuentes : 6 meses
+
+Tamaño del código
+
+Lineas de código       : 3277
+Lineas de comentarios  : 841
+Lineas de espacios     : 644
+Total lineas de codigo : 4762
+
+Total tamaño fuentes  : 243 KB
+
+Máximo y Mínimo
+
+módulo mas largo : 1423 lineas Connect máx(65534)
+módulo mas corto : 27 lineas frmCode
+archivo mas grande : 50 KB Connect
+archivo mas pequeño : 2 KB modMiscellaneousCode
+
+Variables
+
+Número de identificadores 663 max (32000)
+
+Formularios y Controles
+
+Formularios 5 max (230)
+Controles   77
+
+Procedimientos
+
+Basic       	166
+DLL         	43
+
+Públicos    	41
+Privados    	168
+
+Subs        	129
+Funciones   	37
+
+Propiedades 	0
+Let         	0
+Get         	0
+Set         	0
+
+Total       	209
+
+Variables             : 663
+Variables Globales    : 1
+Variables Modulares   : 162
+Variables Locales     : 209
+Variables Parámetros  : 291
+Variables Públicas    : 1
+Variables Privadas    : 662
+
+Arrays                : 13
+Arrays     Públicas   : 0
+Arrays     Privadas   : 0
+
+Constantes            : 68
+Constantes Públicas   : 5
+Constantes Privadas   : 63
+
+Tipos                 : 6
+Tipos Públicos        : 0
+Tipos Privados        : 6
+
+Enumeradores          : 2
+Enumeradores Públicos : 1
+Enumeradores Privados : 1
+
+Tipos de variables
+
+VBIDE.VBE = 2
+CommandBarPopup = 10
+CommandBarButton = 54
+CommandBar = 3
+CommandBarEvents = 54
+Variant = 3
+String = 139
+Object = 57
+AddInDesignerObjects.ext_ConnectMode = 1
+AddInDesignerObjects.ext_DisconnectMode = 1
+Boolean = 131
+Long = 120
+Integer = 52
+tagHH_FTS_QUERY = 1
+CodeModule = 3
+MENUITEMINFO = 1
+VBComponent = 2
+SpecialFolderIDs = 1
+Form = 2
+BrowseInfo = 1
+Single = 2
+RECT = 2
+RichTextBox = 12
+Byte = 1
+FileType = 1
+VBIDE.Window = 5
+OPENFILENAME = 1
+SHFILEINFO = 1
+
+Total 663
+
