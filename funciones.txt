@@ -1,0 +1,124 @@
+Informe de Funciones
+
+Proyecto : PLibrary
+
+Archivo : GCommonDialog.cls
+
+Public Function DialogHook(ByVal hDlg As Long,ByVal msg As Long,ByVal wParam As Long,ByVal lParam As Long)
+	Parámetros              : 4
+	Parámetros x valor      : 4
+	Parámetros x referencia : 0
+	Líneas de Código       : 37
+	Líneas de Comentarios  : 5
+	Líneas en Blancos      : 1
+Function VBGetOpenFileName(Filename As String,Optional FileTitle As String,Optional FileMustExist As Boolean = True,Optional MultiSelect As Boolean = False,Optional ReadOnly As Boolean = False,Optional HideReadOnly As Boolean = False,Optional Filter As String = ,Optional FilterIndex As Long = 1,Optional InitDir As String,Optional DlgTitle As String,Optional DefaultExt As String,Optional Owner As Long = -1,Optional flags As Long = 0,Optional Hook As Boolean = False,Optional EventSink As Object) As Boolean
+	Parámetros              : 15
+	Parámetros x valor      : 0
+	Parámetros x referencia : 15
+	Líneas de Código       : 81
+	Líneas de Comentarios  : 19
+	Líneas en Blancos      : 10
+Private Function lHookAddress(lPtr As Long) As Long
+	Parámetros              : 1
+	Parámetros x valor      : 0
+	Parámetros x referencia : 1
+	Líneas de Código       : 3
+	Líneas de Comentarios  : 1
+	Líneas en Blancos      : 0
+Private Function StrZToStr(s As String) As String
+	Parámetros              : 1
+	Parámetros x valor      : 0
+	Parámetros x referencia : 1
+	Líneas de Código       : 3
+	Líneas de Comentarios  : 0
+	Líneas en Blancos      : 0
+Function VBGetSaveFileName(Filename As String,Optional FileTitle As String,Optional OverWritePrompt As Boolean = True,Optional Filter As String = ,Optional FilterIndex As Long = 1,Optional InitDir As String,Optional DlgTitle As String,Optional DefaultExt As String,Optional Owner As Long = -1,Optional flags As Long,Optional Hook As Boolean = False,Optional EventSink As Object) As Boolean
+	Parámetros              : 12
+	Parámetros x valor      : 0
+	Parámetros x referencia : 12
+	Líneas de Código       : 74
+	Líneas de Comentarios  : 18
+	Líneas en Blancos      : 8
+Private Function FilterLookup(ByVal sFilters As String, ByVal iCur As Long) As String
+	Parámetros              : 2
+	Parámetros x valor      : 2
+	Parámetros x referencia : 0
+	Líneas de Código       : 21
+	Líneas de Comentarios  : 1
+	Líneas en Blancos      : 0
+Function VBGetFileTitle(sFIle As String) As String
+	Parámetros              : 1
+	Parámetros x valor      : 0
+	Parámetros x referencia : 1
+	Líneas de Código       : 11
+	Líneas de Comentarios  : 0
+	Líneas en Blancos      : 2
+Function VBChooseColor(Color As Long,Optional AnyColor As Boolean = True,Optional FullOpen As Boolean = False,Optional DisableFullOpen As Boolean = False,Optional Owner As Long = -1,Optional flags As Long,Optional Hook As Boolean = False,Optional EventSink As Object) As Boolean
+	Parámetros              : 8
+	Parámetros x valor      : 0
+	Parámetros x referencia : 8
+	Líneas de Código       : 39
+	Líneas de Comentarios  : 17
+	Líneas en Blancos      : 10
+Function VBChooseFont(CurFont As Font,Optional PrinterDC As Long = -1,Optional Owner As Long = -1,Optional Color As Long = vbBlack,Optional MinSize As Long = 0,Optional MaxSize As Long = 0,Optional flags As Long = 0,Optional Hook As Boolean = False,Optional EventSink As Object) As Boolean
+	Parámetros              : 9
+	Parámetros x valor      : 0
+	Parámetros x referencia : 9
+	Líneas de Código       : 65
+	Líneas de Comentarios  : 22
+	Líneas en Blancos      : 9
+Function VBPrintDlg(hdc As Long,Optional PrintRange As EPrintRange = eprAll,Optional DisablePageNumbers As Boolean,Optional FromPage As Long = 1,Optional ToPage As Long = &HFFFF,Optional DisableSelection As Boolean,Optional Copies As Integer,Optional ShowPrintToFile As Boolean,Optional DisablePrintToFile As Boolean = True,Optional PrintToFile As Boolean,Optional Collate As Boolean,Optional PreventWarning As Boolean,Optional Owner As Long,Optional Printer As Object,Optional flags As Long,Optional Hook As Boolean = False,Optional EventSink As Object) As Boolean
+	Parámetros              : 17
+	Parámetros x valor      : 0
+	Parámetros x referencia : 17
+	Líneas de Código       : 95
+	Líneas de Comentarios  : 26
+	Líneas en Blancos      : 7
+Public Function VBPageSetupDlg2(Optional Owner As Long,Optional DisableMargins As Boolean,Optional DisableOrientation As Boolean,Optional DisablePaper As Boolean,Optional DisablePrinter As Boolean,Optional LeftMargin As Single,Optional MinLeftMargin As Single,Optional RightMargin As Single,Optional MinRightMargin As Single,Optional TopMargin As Single,Optional MinTopMargin As Single,Optional BottomMargin As Single,Optional MinBottomMargin As Single,Optional PaperSize As EPaperSize = epsLetter,Optional Orientation As EOrientation = eoPortrait,Optional PrintQuality As EPrintQuality = epqDraft,Optional Units As EPageSetupUnits = epsuInches,Optional Printer As Object,Optional flags As Long,Optional Hook As Boolean = False,Optional EventSink As Object) As Boolean
+	Parámetros              : 21
+	Parámetros x valor      : 0
+	Parámetros x referencia : 21
+	Líneas de Código       : 89
+	Líneas de Comentarios  : 12
+	Líneas en Blancos      : 5
+Function VBPageSetupDlg(Optional Owner As Long,Optional DisableMargins As Boolean,Optional DisableOrientation As Boolean,Optional DisablePaper As Boolean,Optional DisablePrinter As Boolean,Optional LeftMargin As Long,Optional MinLeftMargin As Long,Optional RightMargin As Long,Optional MinRightMargin As Long,Optional TopMargin As Long,Optional MinTopMargin As Long,Optional BottomMargin As Long,Optional MinBottomMargin As Long,Optional PaperSize As EPaperSize = epsLetter,Optional Orientation As EOrientation = eoPortrait,Optional PrintQuality As EPrintQuality = epqDraft,Optional Units As EPageSetupUnits = epsuInches,Optional Printer As Object,Optional flags As Long,Optional Hook As Boolean = False,Optional EventSink As Object) As Boolean
+	Parámetros              : 21
+	Parámetros x valor      : 0
+	Parámetros x referencia : 21
+	Líneas de Código       : 61
+	Líneas de Comentarios  : 1
+	Líneas en Blancos      : 1
+Private Function BytesToStr(ab() As Byte) As String
+	Parámetros              : 1
+	Parámetros x valor      : 0
+	Parámetros x referencia : 1
+	Líneas de Código       : 3
+	Líneas de Comentarios  : 0
+	Líneas en Blancos      : 0
+Private Function COMError(e As Long) As Long
+	Parámetros              : 1
+	Parámetros x valor      : 0
+	Parámetros x referencia : 1
+	Líneas de Código       : 3
+	Líneas de Comentarios  : 0
+	Líneas en Blancos      : 0
+Private Function IsArrayEmpty(va As Variant) As Boolean
+	Parámetros              : 1
+	Parámetros x valor      : 0
+	Parámetros x referencia : 1
+	Líneas de Código       : 6
+	Líneas de Comentarios  : 1
+	Líneas en Blancos      : 0
+
+Totales
+
+Funciones : 15
+Públicas : 9
+Privadas : 6
+Parámetros : 115
+Parámetros x Valor : 6
+Parámetros x Referencia : 109
+Lineas de código : 591
+Lineas en blanco : 53
+Lineas comentariadas : 123
+
