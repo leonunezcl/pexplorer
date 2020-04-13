@@ -13,6 +13,24 @@ Project Explorer es un analizador de código fuente para programas escritos en V
 
 Luego expandi el análisis a todos los tipos de datos que soporta nativamente visual basic para poder analizar subrutinas, funciones, constantes, arreglos, enumeraciones, tipos, apis de windows y a la vez dependiendo el ámbito en el cual estaban declaradas (públicas, modulares y privadas) poder determinar si estas estaban siendo ocupadas. 
 
+# Archivos Necesarios
+Este proyecto ocupa 5 componentes ActiveX 
+
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\WINDOWS\SYSTEM\StdOle2.tlb#OLE Automation
+Reference=*\G{8B217740-717D-11CE-AB5B-D41203C10000}#1.0#0#C:\WINDOWS\SYSTEM\TLBINF32.DLL#TypeLib Information
+Reference=*\G{69EDFBA5-9FEC-11D5-89A4-F0FAEF3C8033}#1.0#0#C:\WINDOWS\SYSTEM\PVB_XMENU.DLL#ActiveX DLL Menu With Bitmaps !
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; MSCOMCTL.OCX
+Object={3B7C8863-D78F-101B-B9B5-04021C009402}#1.2#0; RICHTX32.OCX
+
+El archivo PVB_XMENU.DLL es un componente customizado para que los menus se puedan aplicar iconos y ayuda al momento de selección.
+
+# Registro de los componentes ActiveX
+Se debe realizar desde la linea de comando de windows regsvr32.exe [nombre del componente]
+Para windows 10 necesitaras instalar con permisos de administrador. 
+
+# Notas de los componentes ActiveX de Windows
+Si obtienes error de licencia de componentes al momento de ejecutar el proyecto necesitaras instalar quizas la runtime de Visual Basic 5 (MSCVBM50.DLL) y bajar el archivo VB5CLI.EXE y VBUSC.EXE ambos disponibles en internet para descarga. Esto corregira los problemas de licencia de componentes de VB5.
+
 # Prologo
 Regala un pescado a un hombre y le darás alimento para un día, enseñale a pescar y lo alimentarás para el resto de su vida (Proverbio Chino)
 
